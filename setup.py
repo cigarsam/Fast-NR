@@ -19,7 +19,7 @@ setup(
     packages=find_packages(exclude=('tests', 'docs')),
     entry_points = {
           'console_scripts': [
-              'Fast-NR = src.Fast-NR:main'
+              'Fast-NR = src.Fast_NR:main'
           ]
           }
 )
