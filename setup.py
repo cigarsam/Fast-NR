@@ -8,18 +8,18 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='Fast-NR',
+    name='FastNR',
     version='1.0',
-    description='Fast_NR is a software which applied on STARR-seq data to identify the negative regulatory elements, like silencer or insulator.',
+    description='FastNR is a software which applied on STARR-seq data to identify the negative regulatory elements, like silencer or insulator.',
     long_description=readme,
     author='Na He',
     author_email='11849492@mail.sustech.educ.com',
-    url='https://github.com/Na-He/Fast_NR',
+    url='https://github.com/Na-He/FastNR',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     entry_points = {
           'console_scripts': [
-              'Fast_NR = src.Fast_NR:main'
+              'FastNR = src.FastNR:main'
           ]
           }
 )
