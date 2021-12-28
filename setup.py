@@ -8,7 +8,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='Fast_NR',
+    name='Fast-NR',
     version='1.0',
     description='Fast_NR is a software which applied on STARR-seq data to identify the negative regulatory elements, like silencer or insulator.',
     long_description=readme,
