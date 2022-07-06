@@ -34,7 +34,8 @@ def main ():
     
     print("Read in control file.")
     print("forEnh")
-    if args.cFormat == "bed":               
+    if args.cFormat == "bed":
+        print("bedENH")
         controlPro = BEDProcess(args.control,args.length)
         control=controlPro.Genome_Frag_all_pos(chrSizeList)
     elif args.cFormat == "bam":
@@ -43,6 +44,7 @@ def main ():
 
     print("Read in treatmant file.")
     if args.tFormat == "bed":
+        print("BedtxENH")
         treatmentPro = BEDProcess(args.treatment,args.length) 
         treat=treatmentPro.Genome_Frag_all_pos(chrSizeList)
     elif args.tFormat == "bam":
