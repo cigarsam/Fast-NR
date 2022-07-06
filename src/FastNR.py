@@ -33,7 +33,7 @@ def main ():
     bw = args.windowSize
     
     print("Read in control file.")
-    
+    print("forEnh")
     if args.cFormat == "bed":               
         controlPro = BEDProcess(args.control,args.length)
         control=controlPro.Genome_Frag_all_pos(chrSizeList)
